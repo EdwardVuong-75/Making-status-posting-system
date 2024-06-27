@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS statuses(
+    stcode varchar(5) NOT NULL,
+    st varchar(50) NOT NULL, 
+    share ENUM('University', 'Class', 'Private') NOT NULL,
+    date varchar(10) NOT NULL,
+    permission set('Allow Like','Allow Comments','Allow Share') NOT NULL,
+    PRIMARY KEY(stcode)
+    );
+
+//Check if status code already exists
+SELECT * FROM $table WHERE stcode = '$status_code';
+
+//Task5
+SELECT * FROM $table WHERE st = '$searchstatus';
+
+//Task 6
+DROP TABLE $table

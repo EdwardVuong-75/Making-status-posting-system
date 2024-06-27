@@ -1,0 +1,81 @@
+h1{ 
+color:blue;
+text-align: center;
+font-family: Papyrus, Fantasy;
+}
+
+a.b{
+float: right;font-family: Lucida Handwriting, Cursive;
+}
+
+.bd{
+background-color: aquamarine;
+}
+
+.c{
+background-color: red;
+font-family: Lucida Handwriting, Cursive;
+}
+
+.d{
+font-family: Lucida Handwriting, Cursive;
+}
+
+a.e{
+font-family: Lucida Handwriting, Cursive;
+}
+
+.bd2{
+background-color: lightsalmon;
+}
+
+#fa
+{
+font-family: Lucida Handwriting, Cursive;
+}
+
+#submit
+{
+font-family: Papyrus, Fantasy;
+background-color: aquamarine;
+}
+
+.content{
+font-family: Lucida Handwriting, Cursive;
+background-color: moccasin;
+}
+
+.bd3{
+background-color: moccasin;
+}
+
+.bd4{
+background-color: Peru;
+}
+
+#float-right
+{float: right; width: 50%;
+text-align: right;
+}
+
+#float-left
+{float: left; width: 50%;
+text-align: left;
+}
+
+.bd5{
+background-color: palegoldenrod;
+font-family: Lucida Handwriting, Cursive;
+}
+
+.buttonHolder
+{
+text-align: center;
+}
+
+#sb
+{background-color: red;
+font-family: Papyrus, Fantasy;
+
+}
+
